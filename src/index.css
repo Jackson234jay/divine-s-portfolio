@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav ul li:first-child {
+  margin-right: auto;
+}
+nav ul li a {
+  padding: 0 20px;
+  transition: all 0.5s ease 0s;
+}
+nav ul li a:hover {
+  color: rgb(179, 66, 179);
+}
+.sidebar li {
+  width: 100%;
+}
+.sidebar {
+  width: 100%;
+  transition: 0.5s;
+}
+
+.sidebar li {
+  width: 100%;
+}
+.sidebar a {
+  width: 100%;
+}
+.sidebar a {
+  transition: all 2s ease 0s;
+  width: 100%;
+}
+.menu-btn {
+  display: none;
+  transition: all 2s ease 0s;
+}
+@media (max-width: 880px) {
+  .hideOnMobile {
+    display: none;
+    transition: all 2s ease 0s;
+  }
+  .menu-btn {
+    display: block;
+    transition: all 2s ease 0s;
+  }
+}
+@media (max-width: 400px) {
+  .sidebar {
+    transition: all 2s ease 0s;
+    width: 100%;
+  }
+}
+.glow {
+  transition: all 0.5s ease 0s;
+}
+.glow:hover {
+  box-shadow: 0 0 20px fuchsia;
+}
+.img_glow {
+  box-shadow: 0 0 55px rgb(161, 41, 149);
+}
+.neno-button {
+  transition: all 0.5s ease 0s;
+}
+.neno-button:hover {
+  box-shadow: 0 0 1cap rgb(206, 71, 193);
+  background-color: rgb(206, 71, 193);
+}
+.b_glow {
+  box-shadow: 0 0 55px rgb(206, 71, 193);
+}
+.glow_ing {
+  transition: 5s;
+}
+.glow_ing:hover {
+  color: rgb(206, 71, 193);
+}

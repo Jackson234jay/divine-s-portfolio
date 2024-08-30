@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../assets/profile.jpg";
+import Profile from "../assets/profile.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -17,7 +17,7 @@ const About = () => {
       <div className="lg:px-56 px-10  lg:py-20 text-center gap-5 lg:text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center">
         <img
           data-aos="fade-down"
-          src={img}
+          src={Profile}
           width={290}
           className=" border-2 p-2 rounded-full select-none  border-fuchsia-500 img_glow"
           alt=""

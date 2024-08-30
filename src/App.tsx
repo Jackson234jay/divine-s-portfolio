@@ -2,6 +2,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Home from "./components/Home";
 import { SpeedInsights } from "@vercel/speed-insights/react";
+import { Analytics } from "@vercel/analytics/react";
 import Navbar from "./components/Navbar";
 
 export default function App() {
@@ -12,6 +13,7 @@ export default function App() {
       <About />
       <Contact />
       <SpeedInsights />
+      <Analytics />
     </div>
   );
 }

@@ -21,7 +21,7 @@ const Contact = () => {
           data-aos="slide-left"
           className="text-[52px] outline-white font-serif text-center select-none cursor-pointer  font-semibold mb-2 leading-normal uppercase text-fuchsia-700"
         >
-          Contact Me
+          Contact me
         </h1>
         <h1
           data-aos="slide-right"

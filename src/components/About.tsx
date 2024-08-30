@@ -1,5 +1,5 @@
 import React from "react";
-import Profile from "../assets/profile.jpg";
+import Profile from "../assets/Profile.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";

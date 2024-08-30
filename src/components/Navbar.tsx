@@ -60,7 +60,7 @@ const Navbar = () => {
             onClick={showSidebar}
           >
             <a href="#">
-              <IoMenu className="h-[26] transition-all duration-500 w-[26] items-center" />
+              <IoMenu className="h-[26]  duration-500 w-[26] items-center" />
             </a>
           </li>
         </ul>
